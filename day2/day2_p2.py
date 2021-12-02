@@ -15,7 +15,7 @@ if __name__ == '__main__':
         print("Input file path '%s' is invalid" % args.input_file)
         exit(1)
     
-    # go through depth by depth and find number of increases
+    # go through submarine commands
     lines = input.readlines()
     aim = 0
     curr_x = 0
